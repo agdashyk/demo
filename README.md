@@ -651,7 +651,7 @@ php artisan make:controller TestCaseController
 ```
 Удалить welcome.blade.php, создать index.blade.php
 
-##TestCaseController.php:
+## TestCaseController.php:
 ```
 php
 <?php
