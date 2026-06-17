@@ -8,6 +8,7 @@
 - [Контроллеры](#контроллеры)
 - [Маршруты](#маршруты)
 - [Views (Blade)](#views-blade)
+- [6модуль ](#6модуль)
 
 ---
 
@@ -643,7 +644,7 @@ Route::put('/user/{user}', [App\Http\Controllers\ActionsController::class, 'edit
 </body>
 </html>
 ```
-# 6 модуль
+#6 модуль
 ```
 composer create-project laravel/laravel --prefer-dist .
 php artisan make:controller TestCaseController
