@@ -647,9 +647,16 @@ Route::put('/user/{user}', [App\Http\Controllers\ActionsController::class, 'edit
 ```
 ## Это репу добавить и потом(php artisan tinker)
 
+```
+php artisan tinker
+```
 
 ```
 App\Models\User::create(['email' => 'repev.egor@nttek.ru' , 'password' => '12345678' , 'need_to_change_password' => true , 'name' => 'George Repev']);
+```
+
+```
+php artisan migrate:refresh
 ```
 
 ## 6 модуль
